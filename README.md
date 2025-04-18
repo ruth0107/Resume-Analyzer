@@ -1,41 +1,26 @@
-# 📄 Resume Analyzer Pro
+# 💼 Resume Analyzer - AI-Powered Career Guidance
 
-**AI-powered resume analyzer to match your skills with top tech roles and get instant feedback with improvement suggestions!**
+This project is a **Streamlit web application** that helps users identify missing skills for specific job roles and provides **AI-generated suggestions** on how to acquire them using the **Hugging Face Inference API**.
 
-This app uses text extraction, keyword matching, and large language model suggestions to help users understand how well their resume fits various roles like AI/ML Engineer, Data Scientist, Data Analyst, and Research Engineer.
+## 🔧 Features
 
----
+- Upload your resume in plain text format
+- Select your target job role
+- Compare extracted skills with required/optional skills for that role
+- Identify missing skills
+- Get AI-powered suggestions on how to acquire those missing skills
+- Simple, interactive, and fast
 
-## 🚀 Features
+## 🧠 AI Integration
 
-- 📤 **Upload Resumes** (PDF or Image)
-- 🔍 **Extracted Resume Text** preview
-- 🧠 **AI-Powered Matching** with supported tech roles
-- 📊 **Role Match Comparison** with visual metrics
-- ✅ **Skills Analysis**: strengths vs. areas to improve
-- 💡 **Smart Suggestions** from AI
-- 📥 **Downloadable Analysis Report** (TXT)
-
----
-
-## 🧠 Supported Roles
-
-- AI/ML Engineer  
-- Data Scientist  
-- Data Analyst  
-- Research Engineer
+The app uses the Hugging Face Inference API to generate career advice for upskilling. You can switch models (e.g., `distilgpt2`, `mistralai/Mistral-7B-Instruct-v0.2`, etc.) based on your API plan.
 
 ---
 
-## 🔧 Setup Instructions
+## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/resume-analyzer-pro.git
-cd resume-analyzer-pro
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
-
+git clone https://github.com/your-username/skillgap-analyzer.git
+cd skillgap-analyzer
