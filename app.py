@@ -20,7 +20,7 @@ nltk.download('stopwords')
 nlp = spacy.load("en_core_web_sm")
 
 # Hugging Face Token Setup
-HF_TOKEN = os.getenv("HF_TOKEN", "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")  # Replace with your API token
+HF_TOKEN = os.getenv("HF_TOKEN", "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")  # Replace with your API token
 login(token=HF_TOKEN)
 
 # Page configuration
